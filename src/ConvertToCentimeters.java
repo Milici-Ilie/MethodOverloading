@@ -8,5 +8,5 @@ public class ConvertToCentimeters {
         return inches * 2.54;
     }
 
-    public static double converToCejtimenter(int  22)
+    public static double converToCejtimenter(int  22);
 }
