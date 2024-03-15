@@ -382,6 +382,18 @@ System.out.println(resultText);
 
     -Check the file [TennNumberChecker.java]
 
+8. How to convert from feet to inches and then centimenters
+
+    -Check the file [Centimenters.java]
+
+9. How to transform seconds to minutes and then to hours
+
+    -Check the file [SecondsAndMinutes.java]
+
+10. How to find out the Circle Area and the sides for a rectangle
+      
+    -Check the file [AreaCalculator.java]
+>How to find out the PI. --- Math.PI
 
     ## ✅XIII. -NEW PROJECT MethodOverloading, Check on GIT-HUB: "MethodOverloading"
 
