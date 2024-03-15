@@ -1,9 +1,9 @@
 public class MinutesToYearsAndDaysCalculator {
 
     public static void main(String[] args) {
-        System.out.println(printYearsAndDays(525600));
-        System.out.println(printYearsAndDays(1051200));
-        System.out.println(printYearsAndDays(561600));
+        printYearsAndDays(525600);
+        printYearsAndDays(1051200);
+        printYearsAndDays(561600);
     }
 
 //    public static final int INVALID_VALUE = -1;
@@ -27,14 +27,15 @@ public class MinutesToYearsAndDaysCalculator {
     public static final int MIN_PER_DAY = MIN_PER_HOUR * HOURS_PER_DAY;
     public static final int MIN_PER_YEAR = MIN_PER_HOUR * HOURS_PER_DAY * DAYS_PER_YEAR ;
 
-    public static String printYearsAndDays(long minutes) {
+    public static void printYearsAndDays(long minutes) {
         if (minutes < 0) {
-            return "INVALID_VALUE";
+            System.out.println("Invalid Value");
+            return;
         }
 
         long years = minutes / MIN_PER_YEAR;
         long days = (minutes / MIN_PER_DAY) % DAYS_PER_YEAR;
 
-        return minutes + "min = " + years + " y" + " and " + days + " d";
+        System.out.println(minutes + " min = " + years  + " y and " + days + " d");
     }
 }
