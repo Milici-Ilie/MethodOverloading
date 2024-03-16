@@ -399,7 +399,9 @@ System.out.println(resultText);
 
     -Check the file [MinutesToYearsAndDaysCalculator.java]
 
+12. How to use if, else-if in chalenge where we check if the value is true/false ad the temperature is between some parameters
 
+    -Check the file [PlayingCat.java]
 
 
     ## ✅XIII. -NEW PROJECT MethodOverloading, Check on GIT-HUB: "MethodOverloading"
